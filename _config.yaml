@@ -14,3 +14,12 @@ author:
   avatar : "img.png"
   bio : "I am a Computer Science graduate student at the University of Montana"
   location : "UM"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
